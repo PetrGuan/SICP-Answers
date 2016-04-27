@@ -13,7 +13,8 @@
 
 
 
-(define (reverse list)
-    (if (= (length list) 1)
-        (car list)
-        (cons (reverse (cdr list)) (car list))))
+(define (iter remained-items result)
+    (if (null? remained-items)
+        result
+        (iter (cdr remained-items)
+              (cons (car remained-items) result))))
