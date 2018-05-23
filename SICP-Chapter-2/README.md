@@ -83,3 +83,17 @@ Now we can see the power of modular:
                 (filter even?
                         (map fib (enumerate-interval 0 n)))))
 ```
+
+## Horners's rule
+
+We know how to evaluate a polynomial,
+
+![horner-rule](./img/p2.png)
+
+### Todo-lists
+
+- [ ] Q-2.35
+- [ ] Q-2.36
+- [ ] Q-2.37
+- [ ] Q-2.38
+- [ ] Q-2.39
